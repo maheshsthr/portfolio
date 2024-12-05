@@ -1,0 +1,291 @@
+* {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    text-decoration: none;
+}
+
+
+nav {
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menu div {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap:20px;
+}
+
+nav span {
+    font-size: 6vh;
+    font-weight: bold;
+}
+
+nav .menu div {
+    font-weight: bold;
+    color: rgb(84, 84, 84);
+    text-decoration: none;
+    color: rgb(84, 84, 84)
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+    width: 100vw;
+    margin-top: 10vh;
+}
+
+.main .slogan {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 2px;    
+}
+
+.hey {
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+    font-family: Verdana;
+}
+
+.ms {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Verdana;
+}
+
+.wd {
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(101, 101, 101);
+    font-family: Verdana;
+
+}
+
+.img img {
+    height: 50vh;
+}
+
+footer {
+    height: 8vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(34, 34, 34);
+    color: white;
+    margin-bottom: 0px;
+    align-items: center;
+}
+
+nav .menu div a {
+    color: rgb(84, 84, 84);
+}
+
+nav .menu div a:hover {
+    color: rgb(0, 119, 255);
+}
+
+.contact {
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.contact a {
+    font-size: 15px;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 8px 18px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    border:2px solid rgb(43, 43, 43);
+    transition: 0.3s;
+
+}
+
+nav {
+    position: sticky;
+    top:0px;
+}
+
+.contact a:hover {
+    background-color: white;
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+@media (max-width :830px)
+{
+    
+    .menu {
+        display:flex;
+        gap:20px;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+
+    nav span {
+        font-size: 4vh;
+    }
+    .slogan,.img {
+        height: 40vh;
+    }
+    .img img {
+        height: 30vh;
+    }
+    nav {
+        flex-direction: column;
+        height: 15vh;
+    }
+    .menulinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .contactss {
+        height: 10vh;
+        padding-top: 0px;
+    }
+}
+
+.container {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vh;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card {
+    width: 30vh;
+    background-color: rgb(255, 255, 255);
+    min-width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    gap:10px;
+    text-align: center;
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.card img {
+    height: 6vh;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card a {
+    text-decoration: none;
+    background-color: transparent;
+    color: rgb(0, 115, 255);
+    transition: 0.2s;
+    font-size: 15px;
+}
+
+.card a:hover {
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.cards {
+    width: 30vh;
+    background-color: rgb(255, 255, 255);
+    min-width: 200px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    gap:10px;
+    text-align: center;
+}
+.cards img {
+    height: 6vh;
+}
+
+.contactss {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    height: 60vh;padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.contactss form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+}
+
+form textarea,input {
+    width: 50vw;
+    padding: 10px;
+    resize: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn {
+    width: 200px;
+    background-color: transparent;
+    color: black;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(26, 26, 26);
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1000000;
+    background-color: white;
+}
