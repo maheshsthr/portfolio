@@ -162,6 +162,7 @@ form input,textarea {
     width: 20vw;
     background-color: white;
     border: 3px solid rgb(31, 31, 31);
+    color: black;
 }
 
 @media (max-width:748px)
