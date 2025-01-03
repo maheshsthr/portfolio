@@ -2,7 +2,9 @@
     font-family: "Lexend";
     margin: 0px;
 }
-
+html {
+    scroll-behaviour: smooth;
+}
 body {
     overflow-x: hidden;
     justify-content: center;
